@@ -8,5 +8,7 @@ setxkbmap fr &
 xset +fp /usr/share/fonts/local
 xset fp rehash
 
-tint2 &
+eval `ssh-agent -s` > /dev/null
+ssh-add ~/.ssh/5taff_id > /dev/null
+
 exec awesome

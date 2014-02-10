@@ -1,7 +1,6 @@
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
 #ZSH_THEME="robbyrussell"
-eval `ssh-agent -s` > /dev/null
 CASE_SENSITIVE="true"
 plugins=(git)
 
